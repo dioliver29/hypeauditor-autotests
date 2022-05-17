@@ -17,7 +17,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.*;
 
-public class SearchInfluencer {
+public class SearchInfluencer extends TestBase{
     @Test
     @Owner("stikheeva")
     @Description("Open main page and search for Influencer")

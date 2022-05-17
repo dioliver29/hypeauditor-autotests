@@ -28,6 +28,7 @@ public class TestBase {
         Configuration.baseUrl = System.getProperty("baseUrl"); // https://hypeauditor.com/
         Configuration.remote = String.format("https://%s:%s"+"@"+ System.getProperty("remoteSelenideUrl") +"/wd/hub", login, password);
         Configuration.browser = System.getProperty("browser");
+        Configuration.browserVersion = System.getProperty("browserVer");
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("enableVNC", true);
         capabilities.setCapability("enableVideo", true);
