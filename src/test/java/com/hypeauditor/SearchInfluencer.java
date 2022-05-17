@@ -25,7 +25,7 @@ public class SearchInfluencer extends TestBase{
     void searchInfluencer() {
         SelenideLogger.addListener("allure", new AllureSelenide());
 
-        step("Open {baseUrl}", () -> open("baseUrl"));
+        step("Open {baseUrl}", () -> open("/"));
 
         step("Find 'Influencer Analytics'", () -> {
             $$(".button-container")
