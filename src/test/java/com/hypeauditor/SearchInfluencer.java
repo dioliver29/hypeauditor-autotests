@@ -10,8 +10,6 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Selenide.*;
-import static com.hypeauditor.TestBase.influencerName;
-import static com.hypeauditor.TestBase.influencerNickName;
 import static io.qameta.allure.Allure.step;
 import static org.assertj.core.api.Assertions.assertThat;
 import static com.codeborne.selenide.Condition.text;
