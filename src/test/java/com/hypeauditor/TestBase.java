@@ -20,7 +20,7 @@ public class TestBase {
     static String login = config.login();
     static String password = config.password();
     static String influencerNickName = "olymarkes";
-    static String influencerName = "Ольга Маркес";
+    static String influencerName = "Olga Markes";
 
     @BeforeAll
     static void setUp() {
