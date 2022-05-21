@@ -60,12 +60,12 @@ systemProperties
 ## :open_file_folder: Allure отчет
 - ### Главный экран отчета
 <p align="center">
-<img title="Allure Overview Dashboard" src="images/screenshots/allure-main-page.png">
+<img title="Allure Overview Dashboard" src="images/screenshots/allure-report.png">
 </p>
 
 - ### Страница с проведенными тестами
 <p align="center">
-<img title="Allure Test Page" src="images/screenshots/allure-test-page.png">
+<img title="Allure Test Page" src="images/screenshots/allure-test-steps.png">
 </p>
 
 ## :memo: Отчет в Telegram
@@ -73,8 +73,8 @@ systemProperties
 <img title="Telegram notification message" src="images/screenshots/telegram-notification.png">
 </p>
 
-## :film_strip: Видео примеры прохождения тестов
-> К каждому тесту в отчете прилагается видео. Одно из таких видео представлено ниже.
+## :film_strip: Видео пример прохождения тестов
+> К каждому тесту в отчете прилагается видео.
 <p align="center">
-  <img title="Selenoid Video" src="images/gif/test-run.gif">
+  <img title="Selenoid Video" src="images/screenshots/test_video.gif">
 </p>
