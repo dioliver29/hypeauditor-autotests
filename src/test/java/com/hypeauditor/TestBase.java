@@ -29,6 +29,8 @@ public class TestBase {
         Configuration.remote = String.format("https://%s:%s"+"@"+ System.getProperty("remoteSelenideUrl") +"/wd/hub", login, password);
         Configuration.browser = System.getProperty("browser");
         Configuration.browserVersion = System.getProperty("browserVer");
+        Configuration.browserSize = System.getProperty("browserSize");
+
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("enableVNC", true);
         capabilities.setCapability("enableVideo", true);

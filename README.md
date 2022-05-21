@@ -49,9 +49,12 @@ gradle clean test
 Удаленный запуск:
 ```
 clean
-test
--Dremote=${REMOTE}
+systemProperties
+-DremoteSelenideUrl=${REMOTESELENIDEURL}
+-DbaseUrl=${BASEURL}
 -Dbrowser=${BROWSER}
+-DbrowserVer=${BROWSER_VERSION}
+-DbrowserSize=${BROWSER_SIZE}
 ```
 
 ## :open_file_folder: Allure отчет
