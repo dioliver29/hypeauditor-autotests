@@ -43,7 +43,7 @@
 ## :arrow_forward: Запуск из терминала
 Локальный запуск:
 ```
-gradle clean test
+gradle clean systemProperties -DremoteSelenideUrl=selenoid.autotests.cloud -DbaseUrl=https://hypeauditor.com -Dbrowser=chrome -DbrowserVer=100.0 -DbrowserSize=1920x1080
 ```
 
 Удаленный запуск:
